@@ -2,6 +2,8 @@
 
 A simple drum kit project using Vanilla Javascript, HTML and CSS (no frameworks). I am currently on a mission to complete a series of Javascript projects and this is the first one!
 
+Github Pages link - https://rpgayatri.github.io/drum-kit/
+
 ## Credits
 
 1. Wes Bos, for his funtabulous series - [JavaScript30](https://javascript30.com/)
