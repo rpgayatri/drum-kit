@@ -1,0 +1,52 @@
+html {
+  background: url(images/concert_audience.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.drum-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+
+  /* START - to center */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  /* END - to center */
+}
+
+.drum-key {
+  display: flex;
+  flex-direction: column;
+  border: black 4px solid;
+  padding: 8px;
+  background-color: ivory;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  transition: all 0.07s;
+}
+
+kbd {
+  font-size: 25px;
+}
+
+.drum-sound {
+  color: darkmagenta;
+}
+
+.drum-sound {
+  font-size: 13px;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: rgb(242, 222, 7);
+  box-shadow: 0 0 10px #ffc600;
+}
